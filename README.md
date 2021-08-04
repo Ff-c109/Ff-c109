@@ -9,4 +9,3 @@ Java也会，但是不是很会用。
 
 联系方式：
 E-Mail: ff-c109@outlook.com
-bilibili: https://space.bilibili.com/351103392
