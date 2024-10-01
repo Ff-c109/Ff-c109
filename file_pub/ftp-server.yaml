@@ -166,8 +166,8 @@ proxies:
     #   early-data-header-name: Sec-WebSocket-Protocol
   - name: "vmess_ipv6"
     type: vmess
-    server: frp-bar.top
-    port: 59524
+    server: ff-c109.dns.navy
+    port: 10086
     network: tcp
     uuid: 6a9adf92-e593-47ac-91d7-33360cc5ab10
     alterId: 64
@@ -185,5 +185,6 @@ proxy-groups:
 
 rules:
   - IP-CIDR,192.168.1.67/32,ServerList
+  - IP-CIDR,172.17.0.1/32,ServerList
   - DOMAIN,192.168.1.67,ServerList
   - MATCH,DIRECT
