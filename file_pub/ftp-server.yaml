@@ -151,8 +151,8 @@ proxies:
   #  auto/aes-128-gcm/chacha20-poly1305/none
   - name: "vmess"
     type: vmess
-    server: frp-bar.top
-    port: 59524
+    server: frp-car.top
+    port: 26862
     network: tcp
     uuid: 6a9adf92-e593-47ac-91d7-33360cc5ab10
     alterId: 64
