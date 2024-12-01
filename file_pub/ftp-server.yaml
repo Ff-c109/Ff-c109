@@ -188,6 +188,7 @@ proxy-groups:
     proxies: 
       - vmess_ipv6
       - vmess
+      - vmess_kcp
     type: fallback
     url: 'http://www.gstatic.com/generate_204'
     interval: 100
